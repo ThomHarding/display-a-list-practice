@@ -81,7 +81,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -92,10 +92,38 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
-  
-  @keyframes pulse {
+
+section div {
+    outline: solid 1px black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+section div div {
+    outline: solid 2px gray;
+    padding: 5px;
+}
+
+.book-item {
+    font-style: italic;
+    color: red;
+}
+
+.student-item {
+    text-transform: capitalize;
+    color: green;
+}
+
+.dog-item {
+    text-transform: capitalize;
+    color: blue;
+    font-style: bold;
+}
+
+@keyframes pulse {
     20% {
-      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
+    transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
     }
 
     40% {
@@ -104,10 +132,10 @@ footer {
 
     60% {
         transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-      }
+    }
 
     80% {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
-  }
+}
