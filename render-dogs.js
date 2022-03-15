@@ -20,5 +20,7 @@ export function renderDogs(dogObject) {
         countryItem.textContent = country;
         countriesList.appendChild(countryItem);
     }
+    dogDiv.appendChild(countriesList);
+
     return dogDiv;
 }
