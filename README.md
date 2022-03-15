@@ -1,4 +1,4 @@
-## Display a list practice
+# Display a list practice
 
 The goal here is to help you see web development the way experienced developers do: as a series of finite and repeatable tasks.
 

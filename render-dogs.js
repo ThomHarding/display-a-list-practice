@@ -15,7 +15,7 @@ export function renderDogs(dogObject) {
     dogDiv.appendChild(eyesDiv);
 
     let countriesList = document.createElement('ul');
-    for (let country of dogObject.countries) {
+    for (let country of dogObject.livedCountries) {
         let countryItem = document.createElement('li');
         countryItem.textContent = country;
         countriesList.appendChild(countryItem);
